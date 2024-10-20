@@ -3,14 +3,14 @@ import React from 'react';
 const Follow = () => {
     // Array of image paths from the public folder
     const images = [
-        'public/cups/Rectangle 9.png', 
-        'public/cups/Rectangle 10.png',
-        'public/cups/Rectangle 11.png',
-        'public/cups/Rectangle 12.png',
-        'public/cups/Rectangle 13.png',
-        'public/cups/Rectangle 14.png',
-        'public/cups/Rectangle 15.png',
-        'public/cups/Rectangle 16.png',
+        './cups/Rectangle 9.png', 
+        './cups/Rectangle 10.png',
+        './cups/Rectangle 11.png',
+        './cups/Rectangle 12.png',
+        './cups/Rectangle 13.png',
+        './cups/Rectangle 14.png',
+        './cups/Rectangle 15.png',
+        './cups/Rectangle 16.png',
     ];
 
     return (
