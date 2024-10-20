@@ -1,0 +1,15 @@
+/* glow.css */
+.glow {
+    text-shadow: 
+        /* 0 0 5px #331A15,  */
+        0 0 10px #a08c88, 
+        0 0 10px #b49e99, 
+        0 0 15px #8f7874;
+}
+.btnGlow {
+    text-shadow: 
+        0 0 5px #5c5c5c, 
+        0 0 10px #8f8a89, 
+        0 0 10px #8f8b8b, 
+        0 0 15px #7c7877;
+}

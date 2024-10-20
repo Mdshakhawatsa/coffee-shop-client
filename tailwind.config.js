@@ -9,7 +9,6 @@ export default {
       fontFamily: {
         rancho: ['Rancho', 'sans-serif'], 
         raleway: ['Raleway', 'sans-serif'], 
-
       },
     },
   },
