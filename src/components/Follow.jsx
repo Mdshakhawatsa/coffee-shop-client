@@ -14,7 +14,7 @@ const Follow = () => {
     ];
 
     return (
-        <div className='max-w-7xl mx-auto '>
+        <div className='max-w-7xl mx-auto mt-32'>
             {/* Text Section */}
             <div className='text-center'>
                 <h1 className="text-black font-raleway">Follow Us Now</h1>
@@ -25,7 +25,7 @@ const Follow = () => {
             <div className='grid grid-cols-2 md:grid-cols-4 gap-6 mt-8'>
                 {images.map((image, index) => (
                     <div key={index} className='overflow-hidden rounded-lg shadow-md hover:shadow-lg transition-shadow'>
-                        <img src={image} alt={`Instagram post ${index + 1}`} className='w-full h-full object-cover' />
+                        <img src={image} a className='w-full h-full object-cover' />
                     </div>
                 ))}
             </div>
