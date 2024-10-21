@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Hreo = () => {
     return (
@@ -13,7 +14,11 @@ const Hreo = () => {
                         <p className="mt-8 text-white text-sm md:text-base lg:text-lg font-raleway">
                             It's coffee time - Sip & Savor - Relaxation in every sip! Get the nostalgia back!! Your companion of every moment!!! Enjoy the beautiful moments and make them memorable.
                         </p>
-                        <button className='py-2 px-6 mt-8 bg-[#E3B577] font-rancho text-2xl hover:border-2  hover:bg-transparent hover:text-white'>Learn More</button>
+                        <Link to={'/learnmore'}>
+                            <button className='py-2 px-6 mt-8 bg-[#E3B577] font-rancho text-2xl hover:border-2  hover:bg-transparent hover:text-white'>Learn More</button>
+
+                        </Link>
+
                     </div>
                 </div>
             </div>

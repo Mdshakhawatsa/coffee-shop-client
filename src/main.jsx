@@ -9,11 +9,17 @@ import {
 import AddCoffee from './components/AddCoffee.jsx';
 import UpdateCoffee from './components/UpdateCoffee.jsx';
 import SingleCoffeDetails from './components/SingleCoffeDetails.jsx';
+import LearnMore from './components/LearnMore.jsx';
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <App></App>,
+  },
+  {
+    path: "learnmore",
+    element: <LearnMore/>
+
   },
   {
     path: "addCoffee",
